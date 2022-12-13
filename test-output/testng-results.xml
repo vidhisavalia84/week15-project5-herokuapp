@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter username [[ChromeDriver: chrome on WINDOWS (a806633404bb2d6877beaf4829f68321)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password [[ChromeDriver: chrome on WINDOWS (a806633404bb2d6877beaf4829f68321)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on login button [[ChromeDriver: chrome on WINDOWS (a806633404bb2d6877beaf4829f68321)] -> xpath: //i[contains(text(),'Login')]]]]>
+    </line>
+    <line>
+      <![CDATA[Verify password error Message : [[ChromeDriver: chrome on WINDOWS (a806633404bb2d6877beaf4829f68321)] -> id: flash]]]>
+    </line>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="8729" started-at="2022-12-13T16:21:35 GMT" finished-at="2022-12-13T16:21:44 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@2781e022]" name="verifyThePasswordErrorMessage" class="com.herokuapp.internet.the.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@2781e022]" name="verifyThePasswordErrorMessage" class="com.herokuapp.internet.the.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Smoke Test" duration-ms="8729" started-at="2022-12-13T16:21:35 GMT" finished-at="2022-12-13T16:21:44 GMT">
+      <class name="com.herokuapp.internet.the.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@2781e022]" name="setUp" is-config="true" duration-ms="4598" started-at="2022-12-13T16:21:35 GMT" finished-at="2022-12-13T16:21:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@2781e022]" name="inIt" is-config="true" duration-ms="33" started-at="2022-12-13T16:21:40 GMT" finished-at="2022-12-13T16:21:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@2781e022]" name="verifyThePasswordErrorMessage" duration-ms="2523" started-at="2022-12-13T16:21:40 GMT" finished-at="2022-12-13T16:21:43 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter username [[ChromeDriver: chrome on WINDOWS (a806633404bb2d6877beaf4829f68321)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password [[ChromeDriver: chrome on WINDOWS (a806633404bb2d6877beaf4829f68321)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on login button [[ChromeDriver: chrome on WINDOWS (a806633404bb2d6877beaf4829f68321)] -> xpath: //i[contains(text(),'Login')]]]]>
+            </line>
+            <line>
+              <![CDATA[Verify password error Message : [[ChromeDriver: chrome on WINDOWS (a806633404bb2d6877beaf4829f68321)] -> id: flash]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThePasswordErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@2781e022]" name="tearDown" is-config="true" duration-ms="1138" started-at="2022-12-13T16:21:43 GMT" finished-at="2022-12-13T16:21:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.internet.the.testsuite.LoginPageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
